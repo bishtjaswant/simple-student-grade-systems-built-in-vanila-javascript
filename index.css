@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background: #3CA55C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #B5AC49, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #B5AC49, #3CA55C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+  
+input{
+    color: red;
+}
+
+.animated {
+    font-size: 4rem;
+    margin: 2px;
+    font-family: fantasy;
+    color: #f49136;
+    text-shadow: 8px 5px slateblue;
+    border: 2px solid;
+    padding: 7px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

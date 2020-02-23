@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  </head>
+  <body>
+    <h1 class="center-align">Student grade systtem</h1>
+
+    <div class="container">
+      <div class="card-panel ">
+        <div class="row">
+          <div class="col m6">
+              <span class="animated">
+                  Student <br>
+                  grade <br>
+
+                  Calculator
+              </span>
+          </div>
+          <div class="col m6 ">
+              <div class="error"></div>  
+            <div class="input-field col m12">
+              <input id="name" type="text" class="validate" />
+              <label for="name">Tell what is your name ?</label>
+            </div>
+            <div class="input-field col s6">
+                <input id="science" type="number" class="validate" />
+                <label for="science">Science</label>
+              </div>
+            <div class="input-field col s6">
+              <input id="math" type="number" class="validate" />
+              <label for="math">math</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="computer" type="number" class="validate" />
+              <label for="computer">computer</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="hindi" type="number" class="validate" />
+              <label for="hindi">hindi</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="geography" type="number" class="validate" />
+              <label for="geography">geography</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="pysics" type="number" class="validate" />
+              <label for="pysics">pysics</label>
+            </div>
+
+            <button
+              type="button" id="getresult"
+              class="waves-effect col m12 waves-light btn-large"
+            >
+              Get result
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- show result -->
+            <div class="container" id="result">
+               
+                        
+            </div>
+                <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">    </script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <script src="/index.js"></script>
+  </body>
+</html>
